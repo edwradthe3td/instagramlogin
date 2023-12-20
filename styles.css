@@ -1,0 +1,181 @@
+
+.main-box{
+    display:flex;
+    justify-content: center;
+}
+
+.image{
+    width: 250px;
+    height: 500px;
+}
+h1{
+    text-align: center;
+    margin-bottom:50px ;
+}
+
+.login-box{
+    border: 1px solid rgb(222, 220, 220);
+    width: 300px;
+    height: 390px;
+    margin-left: 60px;
+    padding: 10px;
+}
+
+
+
+.user, .pwd{
+    height: 10px;
+    width: 200px;
+    font-size: 12px;
+    padding: 10px;
+    /* padding-left: 5%; */
+    margin-bottom: 15px;
+    justify-content: center;
+    
+}
+
+input{
+    padding: 10px;
+    font-size: 12px;
+    margin: 1px;
+    margin-bottom: 30px;
+    width: 228px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: rgb(249, 249, 249);
+    border: 1px solid rgb(219, 216, 216);
+}
+
+button{
+    width: 248px;
+    height: 30px;
+    padding: 5px;
+    padding-bottom: 20px;
+    border-radius: 7px;
+    font-size: 15px;
+    color: white;
+    background-color: #0095f6;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: none;
+}
+
+
+.lines {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+
+.left-line, .right-line{
+    border: 1px solid rgb(247, 238, 238);
+    width:80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+.login-fb{
+    justify-content: center;
+    margin-left: 85px;
+    color: #385185;
+    font-size: 15px;
+    
+}
+
+
+.sign-up{
+    width: 280px;
+    height:25px;
+    border: 1px solid rgb(187, 185, 185);
+    font-size: 14px;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-left: 10%;
+    padding-top: 20px;
+    margin-top: 80px;
+    margin-left: -10px;
+    text-align: center;
+}
+span{
+    color: #0095f6;
+    font-weight: 500;
+}
+span a{
+
+    text-decoration: none;
+}
+.bottom-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -22px;
+}
+.google-image{
+    height: 50px;
+    width: 150px
+
+}
+.microsoft-image{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color:white;
+    position:absolute;
+    bottom: -190px;
+    padding-top: 10px;
+    width: 60%;
+    margin-left:200px;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 15px 5px 10px;
+}
+
+.socials{
+ margin: 10px 5px;
+ 
+}
+
+.socials ul{
+    width: 125%;
+    margin-left: -125px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    list-style-type:none ;
+   text-align: center;
+}
+
+
+.socials ul li a{
+    color: black;
+    margin: 12px;
+    text-decoration: none;
+    font-size:11.5px;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerBottom{
+    background-color: white;
+    padding:5px;
+    top: 40%;
+    text-align: center;
+}
+
+.footerBottom{
+    color: black;
+}
+
+p{
+    font-size: 12.5px;
+}
